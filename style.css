@@ -32,7 +32,7 @@ body {
 
 .parallax {
     height: 970px;
-    background-image: url('img/fundo.png');
+    background-image: url('fundo.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -170,4 +170,5 @@ img {
     color: #6b4965;
     padding: 4px 8px;
     border-radius: 5px;
+
 }
