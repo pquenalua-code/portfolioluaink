@@ -1,0 +1,173 @@
+body {
+    background-color: #744087;
+}
+
+.container {
+    max-width: 9000px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 23px;
+}
+
+.container2 {
+    max-width: 8000px;
+    background-color: #feffd4;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #00000033;
+    margin: 23px;
+}
+
+.container3 {
+    max-width: 8000px;
+    background-color: #e1b1d8;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #744087;
+    margin: 23px;
+}
+
+.parallax {
+    height: 970px;
+    background-image: url('img/fundo.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+h7 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    color: #feffd4;
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 90%;
+    display: block;
+    color: #6b4965;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fffdff;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c6a500;
+    font-weight: bold;
+    margin: 50px;
+    text-align: center;
+}
+
+h5 {
+    color: #6b4965;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+h6 {
+    color: #c6a500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    color: #000000;
+    font-family: system-ui, bold;
+    margin: 35px;
+    font-size: 15px;
+}
+a{
+    color: #000000;
+    font-family: system-ui, bold;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+.tatus{
+    transition: transform 1s;
+}
+.tatus:hover{
+    transform: rotateY(360deg);
+}
+.card {
+    border: 1px solid #ffd500;
+    border-radius: 10px;
+    width: 220px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.card img {
+    border-radius: 500px;
+    width: 80%;
+}
+
+.oferta {
+    position: absolute;
+    background-color: #e1b1d8;
+    color: #6b4965;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.oferta:hover {
+    position: absolute;
+    background-color: #feffd4;
+    color: #c6a500;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.new {
+    position: absolute;
+    background-color: #feffd4;
+    color: #c6a500;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.new:hover {
+    position: absolute;
+    background-color: #e1b1d8;
+    color: #6b4965;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
